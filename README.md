@@ -26,7 +26,7 @@ The highlighted byte in the picture **F**
 After analyzing the first 5 packets and combining the data at the 34th byte gives me **GIF89**
 
 Then run a simple **python script** using **scapy** thats all.
-Just to make you confident, please analyze every line of code and then run the complete script.
+Just to know properly of what's going on, please analyze every line of code and then run the complete script.
 
 ```python
 from scapy.all import *
