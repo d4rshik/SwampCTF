@@ -12,17 +12,20 @@ So we got the exploit. All that is needed now is to filter out the ICMP packets 
 ## The suspicious ICMP packets:
 
 ![alt text](https://github.com/stuxnet999/SwampCTF/blob/master/Screenshot%20from%202018-05-11%2017-10-17.png "ICMP 1")
+
 The highlighted byte in the picture **G**
 
 ![alt text](https://github.com/stuxnet999/SwampCTF/blob/master/Screenshot%20from%202018-05-11%2017-10-27.png "ICMP 2")
+
 The highlighted byte in the picture **I**
 
 ![alt text](https://github.com/stuxnet999/SwampCTF/blob/master/Screenshot%20from%202018-05-11%2017-10-41.png "ICMP 1")
+
 The highlighted byte in the picture **F**
 
 After analyzing the first 5 packets and combining the data at the 34th byte gives me **GIF89**
 
-Then run a simple scapy script thats all.
+Then run a simple **python script** using **scapy** thats all.
 Just to make you confident, please analyze every line of code and then run the complete script.
 
 ```python
