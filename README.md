@@ -51,4 +51,4 @@ Then we get a .GIF file with the flag written.
 
 Well that was some challenge!
 
-Cheers!!
+Cheers!!!
