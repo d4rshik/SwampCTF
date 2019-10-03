@@ -29,6 +29,8 @@ Then run a simple **python script** using **scapy** thats all.
 Just to know properly of what's going on, please analyze every line of code and then run the complete script.
 
 ```python
+
+# Code starts here
 from scapy.all import *
 
 r = rdpcap("data.pcap")
@@ -43,6 +45,7 @@ for i in range(0, len(r)):
 f = open('FLAG.gif', 'w')
 f.write(''.join(list1))
 f.close()
+# Code ends here
 ```
 
 Then we get a .GIF file with the flag written.
